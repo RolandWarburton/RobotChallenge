@@ -1,0 +1,16 @@
+{
+	"name": "robots",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "rolandwarburton <warburtonroland@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"typescript": "^4.4.3"
+	}
+}
