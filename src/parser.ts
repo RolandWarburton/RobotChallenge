@@ -58,6 +58,10 @@ class Parser {
 			const x = parseInt(pos[0]);
 			const y = parseInt(pos[1]);
 
+			// check the x and y are within the table
+			if (x > table.width || y > table.height) return;
+			if (x < 0 || y < 0) return;
+
 			// get rotation and check it is valid
 			const rotate = pos[2];
 			if (!isCardinalType(rotate)) return;
